@@ -1,0 +1,18 @@
+# Geographic Boundaries Data Directory
+!mkdir boundary_files
+%cd boundary_files
+
+# US Nation
+!wget -q https://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_us_nation_5m.zip
+!unzip -q cb_2015_us_nation_5m.zip
+!rm cb_2015_us_nation_5m.zip
+
+# US States
+!wget -q https://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_us_state_500k.zip
+!unzip -q cb_2015_us_state_500k.zip
+!rm cb_2015_us_state_500k.zip
+
+# US Counties
+!wget -q https://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_us_county_500k.zip
+!unzip -q cb_2015_us_county_500k.zip
+!rm cb_2015_us_county_500k.zip

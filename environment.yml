@@ -1,34 +1,39 @@
 name: pangeo
 channels:
  - conda-forge
+ - nodefaults
 dependencies:
- - python=3.9*
- - pangeo-notebook=2021.09.30
- - pip=20
  - adlfs
+ - argopy
  - awscli
+ - black
  - boto3
  - bottleneck
- - cartopy >= 0.20.0
+ - cartopy
+ - cdsapi
  - cfgrib
- - cmip6_preprocessing
+ - cf_xarray
  - ciso
+ - cmocean
  - dask-ml
  - datashader
  - descartes
- - earthdata
+ - earthaccess
  - eofs
  - erddapy
  - esmpy
  - fastjmd95
+ - flox
  - fsspec
- - fsspec-reference-maker
+ - gcm_filters
  - gcsfs
  - gh
+ - gh-scoped-creds
  - geocube
  - geopandas
  - geopy
  - geoviews-core
+ - git-lfs
  - gsw
  - h5netcdf
  - h5py
@@ -39,61 +44,78 @@ dependencies:
  - intake-geopandas
  - intake-stac
  - intake-xarray
+ - ipdb
+ - ipykernel
  - ipyleaflet
  - ipytree
  - ipywidgets
+ - jupyterlab_code_formatter
+ - jupyterlab-git
+ - jupyterlab-myst
  - jupyter-panel-proxy
  - jupyter-resource-usage
+ - kerchunk
+ - line_profiler
+ - lxml
  - lz4
  - matplotlib-base
+ - memory_profiler
  - metpy
  - nb_conda_kernels
  - nbstripout
  - nc-time-axis
  - netcdf4
- - nomkl
+ - numbagg
  - numcodecs
  - numpy
+ - numpy_groupies
+ - odc-stac
  - pandas
  - panel
  - parcels
- - param!=1.11.0
- - prefect
+ - param
+ - pop-tools
  - pyarrow
  - pycamhd
  - pydap
- - pygeos
  - pystac
+ - pystac-client
  - python-blosc
  - python-gist
  - python-graphviz
+ - python-xxhash
  - rasterio
  - rechunker
  - rio-cogeo
  - rioxarray
- - rise
- - s3fs>0.5
- - sat-search
- - sat-stac
+ - s3fs
  - satpy
  - scikit-image
  - scikit-learn
  - scipy
+ - seaborn
  - sparse
+ - snakeviz
  - stackstac
  - tiledb-py
  - timezonefinder
+ - watermark
  - xarray
  - xarrayutils
+ - xarray-datatree
  - xarray_leaflet
  - xarray-spatial
+ - xbatcher
  - xcape
- - xcube
+ - xclim
  - xesmf
+ - xgboost
  - xgcm
  - xhistogram
+ - xmip
  - xmitgcm
  - xpublish
  - xrft
  - xskillscore
+ - xxhash
  - zarr
