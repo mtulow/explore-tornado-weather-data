@@ -2,7 +2,7 @@
 ---
 ## Exploring Weather Data involving Tornadoes
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/github/mtulow/investigate-tornado-weather)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mtulow/investigate-tornado-weather)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mtulow/investigate-tornado-weather)
 
