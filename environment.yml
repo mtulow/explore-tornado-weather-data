@@ -1,3 +1,6 @@
+# Usage:
+# Mamba:    conda install -n base -c conda-forge mamba
+# Install:  conda env create -f environment.yml
 name: pangeo
 channels:
  - conda-forge
