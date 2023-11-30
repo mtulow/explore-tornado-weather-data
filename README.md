@@ -15,9 +15,17 @@
 - What is the distribution of tornadoes by F-scale?
 - What is the distribution of tornadoes by length & width of path?
 
-#### Data Sources:
-- Severe Weather: (tornadoes, hail, wind) - [NOAA Storm Prediction Center](https://www.spc.noaa.gov/wcm/#data)
-- Radar - [NOAA NEXRAD Station Data](https://www.ncdc.noaa.gov/nexradinv/)
-- Population - [US Census Bureau](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage_70769902)
-- Tornadoes - [NOAA Storm Prediction Center](https://www.spc.noaa.gov/wcm/#data)
+---
 
+#### Relevant Data:
+|Products|Source|EDA|
+|:---|:---|---|
+|Geographic Boundaries|[NOAA Storm Prediction Center](https://www.spc.noaa.gov/wcm/#data)|[Here](./notebooks/explore_weather_data.ipynb#geographic-boundaries)|
+|Severe Weather: (tornadoes, hail, wind)|[NOAA Storm Prediction Center](https://www.spc.noaa.gov/wcm/#data)|[Here](./notebooks/explore_weather_data.ipynb#severe-weather-data)|
+|Weather Radar|[NOAA NEXRAD Station Data](https://www.ncdc.noaa.gov/nexradinv/)|[Here](./notebooks/explore_weather_data.ipynb#radar)|
+|Population|[US Census Bureau](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage_70769902)|[Here](./notebooks/explore_weather_data.ipynb#population)|
+|Temperature: (LST, SST)|[NOAA National Centers for Environmental Information](https://www.ncdc.noaa.gov/cdo-web/search)|[Here](./notebooks/explore_weather_data.ipynb#teperature)|
+
+
+---
+---
